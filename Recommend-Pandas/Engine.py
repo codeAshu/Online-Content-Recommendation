@@ -11,7 +11,7 @@ import json
 from uClassify import uClassify
 
 
-path = "C:\\Users\\admin\\IPython\\Hyperbook\data\\RecomEngine\\"
+path = "..\\data\\RecomEngine\\"
 class Recomend:
 
     def getSummary(self, url):
@@ -254,8 +254,8 @@ class Recomend:
 
     def getCategorybyUrl(self,url, choice):
 
-        read_api_key = "mcSJ8caveJDds94kMdjgeV7QVFE"
-        write_api_key = "OxyyuUSOfgWGdHSggGJwETPWA"
+        read_api_key = "XX"
+        write_api_key = "XX"
 
         a = uClassify()
         a.setApiKey(read_api_key)
